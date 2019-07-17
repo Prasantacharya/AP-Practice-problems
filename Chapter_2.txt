@@ -1,0 +1,36 @@
+11: What values are stored in x and y after execution of the following program segment?
+
+  int x = 30;
+  int y = 40;
+  if (x >= 0){
+    y = x * 3;
+    if(y < 50){
+      x /= 10;
+    }
+    else{
+      y = x * 2;
+    }
+  }
+  else{
+    y = -x;
+  }
+  
+  
+12: Which of the following will evaluate to true only if boolean expressions A,B and C are all false?
+
+a) !A && !(B && !C)
+b) !A || !B || !C
+c) !(A || !B || !C)
+d) !(A && B && C)
+e) !A || !(B || !C)
+
+
+13: Assume that a and b are integers. The boolean expression
+    !(a <= b) && (a * b > 0)
+    will always evaluate to true given that:
+    
+a) a = b
+b) a > b
+c) a < b
+d) a > b and b > 0
+e) a > b and b < 0
